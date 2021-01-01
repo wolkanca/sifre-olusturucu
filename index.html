@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Şifre Oluşturucu</title>
+  <meta name="description" content="Şifre oluşturucu; sizin için özel rastgele şifreler oluşturur.">
+  <link rel="stylesheet" href="styles.css">
+
+<meta property="og:url" content="https://wolkanca.com.tr/sifre-olusturucu/">
+<meta property="og:title" content="Şifre Oluşturucu">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://wolkanca.com.tr/favicon-200x200.png">
+<link rel="image_src" href="https://wolkanca.com.tr/favicon-200x200.png">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:site_name" content="WOLKANCA">
+<meta property="fb:app_id" content="131062354043">
+<meta property="fb:pages" content="578311595549733">
+<meta name="twitter:site" content="@wolkanca">
+<meta name="twitter:creator" content="@wolkanca">
+<meta name="twitter:account_id" content="10560442">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="manifest" href="https://wolkanca.com.tr/manifest.json">
+<link rel="author" href="https://wolkanca.com.tr/humans.txt">
+
+<link rel="shortcut icon" href="https://wolkanca.com.tr/favicon.ico" type="image/x-icon"><link rel="icon" href="https://wolkanca.com.tr/favicon.ico" type="image/x-icon"><link rel="apple-touch-icon" sizes="180x180" href="https://wolkanca.com.tr/apple-icon-180x180.png"><link rel="icon" type="image/png" sizes="32x32" href="https://wolkanca.com.tr/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://wolkanca.com.tr/favicon-16x16.png">
+<meta name="theme-color" content="#ffffff"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="HandheldFriendly" content="True"><meta name="distribution" content="global"><meta name="classification" content="turkey"><meta name="identifier" content="wolkanca.com.tr"><meta name="copyright" content="Copyright 2021 WOLKANCA"><link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/wolkanca/obfdndpeccmhenckcbjloheheaihfmmh"><meta name="google-play-app" content="app-id=com.wolkanca"><link rel="home" href="https://wolkanca.com.tr/">
+
+</head>
+<body>
+  <h1>Şifre Oluşturucu</h1>
+  <div class="container">
+    <div class="header">
+      <div class="pword">
+        <span id="pword">sifre</span>
+        <button id="copy">Kopyala</button>
+      </div>
+    </div>
+    <div class="pword__body">
+      <div class="form-control">
+        <label for="len">Şifre Uzunluğu</label>
+        <input id="len" value="16" type="number" min="2" max="30" />
+      </div>
+      <div class="form-control">
+          <label for="upper">Büyük harf ekle</label>
+          <input id="upper" type="checkbox" checked/>
+      </div>
+      <div class="form-control">
+          <label for="lower">Küçük harf ekle</label>
+          <input id="lower" type="checkbox" checked/>
+      </div>
+      <div class="form-control">
+          <label for="number">Rakam ekle</label>
+          <input id="number" type="checkbox" checked/>
+      </div>
+      <div class="form-control">
+          <label for="symbol">Sembol ekle</label>
+          <input id="symbol" type="checkbox" checked/>
+      </div>
+      <button class="generate" id="generate">
+        Şifre oluştur
+      </button>
+    </div>
+  </div>
+
+<div id="copyright">
+<p>&copy; 2021 <a rel="me" title="Volkan Yılmaz" href="https://volkanyilmaz.com.tr/">Volkan Yılmaz</a></p>
+</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
